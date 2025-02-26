@@ -1,18 +1,19 @@
-#include <math.h>
 #include <stdio.h>
+#include <math.h>
 
 int main()
 {
 
 int x;
 
-int y;
+float y;
 
 printf("Введите число",x);
 scanf("%d",&x);
 
-y = sin (x);
+y =  sin (x) ;
 
 printf ("Ответ %f",y);
 
+return 0;
 }
